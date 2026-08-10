@@ -18,9 +18,9 @@ nc -v -k -l 9999
 ```
 
 # Start Spark Structured Streaming Job
-On Windows, set some extra variables
+On Windows with Git Bash, set some extra variables
 ```
-export HADOOP_HOME=/c/Users/rgraaf/Applications/hadoop/
+export HADOOP_HOME=/c/Users/..FIX-ME../hadoop/
 export PATH=${PATH}:${HADOOP_HOME}/bin
 ```
 then
@@ -53,7 +53,7 @@ Batch: 1
 +-------------+-----+
 |     response|count|
 +-------------+-----+
-|85.145.92.214|    1|
+|11.222.33.444|    1|
 +-------------+-----+
 
 -------------------------------------------                                     
@@ -62,7 +62,7 @@ Batch: 2
 +-------------+-----+
 |     response|count|
 +-------------+-----+
-|85.145.92.214|    2|
+|11.222.33.444|    2|
 +-------------+-----+
 
 -------------------------------------------                                     
@@ -72,6 +72,6 @@ Batch: 3
 |            response|count|
 +--------------------+-----+
 |{"ip":"85.145.92....|    1|
-|       85.145.92.214|    2|
+|       11.222.33.444|    2|
 +--------------------+-----+
 ```
