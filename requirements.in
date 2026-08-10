@@ -1,0 +1,11 @@
+# pip-compile requirements.in
+# pip install --upgrade -r requirements.txt
+
+dynaconf
+
+# For Java 1.8
+pyspark==3.5.3
+
+# For UDF
+pandas>=1.0.5
+pyarrow>=4.0.0

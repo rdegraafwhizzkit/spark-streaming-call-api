@@ -1,0 +1,5 @@
+default:
+  spark_config:
+    spark.jars.packages: 'org.apache.hadoop:hadoop-aws:3.3.4,org.postgresql:postgresql:42.7.8'  # For pyspark==3.5.3
+    spark.jars.excludes: 'com.google.guava:guava'
+    spark.sql.execution.pythonUDF.arrow.enabled: True

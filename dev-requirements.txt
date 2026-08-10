@@ -1,0 +1,5 @@
+# pip install --upgrade -r dev-requirements.txt
+# Versions pinned to prevent errors
+flake8
+pip-tools==7.6.0
+pip==25.2
